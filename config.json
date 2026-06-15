@@ -1,0 +1,22 @@
+{
+  "img_size": 224,
+  "embed_dim": 256,
+  "num_heads": 4,
+  "num_layers": 2,
+  "num_classes": 5,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "backbones": [
+    "efficientnet_b0",
+    "resnet50"
+  ],
+  "uses_clahe": true
+}
